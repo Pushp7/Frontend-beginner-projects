@@ -1,0 +1,21 @@
+{
+  "name": "x-twitter",
+  "version": "1.0.0",
+  "description": "This is a clone website of popular social media X (former known as twitter). This is only for learning purposes. So this is not an official website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss -i ./css/input.css -o ./css/output.css --watch"
+  },
+  "keywords": [
+    "x",
+    "twitter",
+    "clone",
+    "x.com"
+  ],
+  "author": "Pushp",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}

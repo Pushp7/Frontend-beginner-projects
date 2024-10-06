@@ -1,0 +1,42 @@
+.border {
+    border: 1px solid salmon;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-space-betw {
+    justify-content: space-between;
+}
+.justify-space-around {
+    justify-content: space-around;
+}
+
+.invert {
+    filter: invert(1);
+}
+
+.bg-black {
+    background-color: #000;
+}
+
+.bg-grey {
+    background-color: #121212;
+}
+
+.txt-white {
+    color: #fff;
+}
+
+.rounded {
+    border-radius: 0.5rem;
+}

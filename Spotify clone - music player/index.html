@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotifyyyyy</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utility.css">
+</head>
+<body>
+    <div class="container flex bg-black">
+
+        <div class="left">
+            <div id="close">
+                <img src="svg/cancel.svg" class="invert" alt="close">
+            </div>
+            <div class="home bg-grey txt-white">
+                <div class="logo invert">
+                    <img src="svg/spotify logo.svg" alt="">
+                </div>
+                <ul>
+                    <li><img src="svg/home.svg" class="invert" alt="home">Home</li>
+                    <li><img src="svg/search.svg" class="invert" alt="search">Search</li>
+                </ul>
+            </div>
+
+            <div class="library bg-grey txt-white">
+                <ul class="heading flex justify-space-betw">
+                    <li><img src="svg/library stack.svg" class="invert" alt="library">Your&nbsp;Library</li>
+                    <li><img src="svg/plus icon.svg" class="invert" alt="plus"></li>
+                </ul>
+                <div class="song-list">
+                    <ol>
+                        <!-- <li>
+                            <div class="flex align-center" style="gap: 0.5rem;">
+                                <img src="svg/music.svg" class="invert" alt="music">
+                                <div class="info">
+                                    <div class="song-name">Song name</div>
+                                    <div class="song-artist">Pushp Raj</div>
+                                </div>
+                            </div>
+                            <div class="flex align-center" style="gap: 0.3rem; font-size: 0.7rem;">
+                                <span id="play-playing">Play Now</span>
+                                <img src="svg/play.svg" class="invert" alt="">
+                            </div>
+                        </li> -->
+                    </ol>
+                </div>
+
+                <div class="footer">
+                    <span>Legal</span>
+                    <span>Safety & Privacy Center</span>
+                    <span>Privacy Policy</span>
+                    <span>Cookies</span>
+                    <span>About Ads</span>
+                    <span>Accessibility</span>
+                </div>
+            </div>
+   
+        </div>
+
+
+
+
+
+
+        <div class="right">
+            <div class="header bg-grey txt-white flex justify-space-betw">
+                <div class="arrows">
+                    <img src="svg/menu.svg" class="menu invert" alt="Menu">
+                    <img src="svg/left arrow.svg" class="invert" alt="left-nav-arrow">
+                    <img src="svg/right arrow.svg" class="invert" alt="right-nav-arrow">
+                </div>
+                <div>
+                    <button>Sign up</button>
+                    <button>Log in</button>
+                </div>
+            </div>
+
+            <div class="spotify-playlist">
+                <h2>Popular Playlist</h2>
+                <div class="card-container">
+                    <!-- <div class="card" data-folder="Evergreen">
+                        <div>
+                            <img src="https://i.scdn.co/image/ab67616100005174935b2dd507212bd72a71d7f9" alt="Alka Yagnik">
+                            <button class="play-btn">
+                                <div class="play-icon"></div>
+                            </button>
+                        </div>
+                        <h3>Happy Hits!</h3>
+                        <p>Hits to boost your mood and fill you with happiness!</p>
+                    </div>
+
+                    <div class="card" data-folder="Romantic">
+                        <div>
+                            <img src="https://i.scdn.co/image/ab67616100005174935b2dd507212bd72a71d7f9" alt="Alka Yagnik">
+                            <button class="play-btn">
+                                <div class="play-icon"></div>
+                            </button>
+                        </div>
+                        <h3>Happy Hits!</h3>
+                        <p>Hits to boost your mood and fill you with happiness!</p>
+                    </div>     -->
+                </div>
+
+                <div class="playbar">
+                    <div class="flex align-center" style="gap: 1rem;">
+                        <div class="current-duration">00:00</div>
+                        <div class="seekbar">
+                            <div class="circle"></div>
+                        </div>
+                        <div class="total-duration">00:00</div>
+                    </div>
+
+                    <div class="bottom-bar flex align-center justify-space-betw" style="width: 100%;">
+                        <!-- <marquee scrollamount="3"><div class="song-info"></div></marquee> -->
+                        <div class="song-info"></div>
+                        <div class="song-buttons">
+                            <img id="previous" src="svg/previous-stroke-rounded.svg" alt="prev">
+                            <img id="play" src="svg/play.svg" alt="play">
+                            <img id="next" src="svg/next-stroke-rounded.svg" alt="next">
+                        </div>
+                        <!-- <div class="song-duration"></div> -->
+                        <div class="volume">
+                            <img id="volume-btn" src="svg/volume.svg" class="invert"  alt="volume">
+                            <input type="range" name="volume" id="volume-range">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
